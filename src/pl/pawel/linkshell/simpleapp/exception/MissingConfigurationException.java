@@ -1,8 +1,8 @@
 package pl.pawel.linkshell.simpleapp.exception;
 
-public class MissingConfigurationException extends Throwable {
+public class MissingConfigurationException extends MissingAnnotationException {
 
-  public MissingConfigurationException(String s) {
-    super(s);
+  public MissingConfigurationException(String cause) {
+    super(cause);
   }
 }
